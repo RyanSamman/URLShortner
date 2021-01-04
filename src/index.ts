@@ -25,7 +25,7 @@ if (!process.env.MONGO_URI) {
 // Connect to Database
 mongoose.connect(process.env.MONGO_URI,
 	{ useNewUrlParser: true, useUnifiedTopology: true },
-	err => err && console.log(err)
+	err => err ? console.log(err) : console.log("Connection Established with Database")
 )
 
 // Start express app
@@ -49,7 +49,7 @@ app.use((req, _res, next) => {
 })
 
 // Static folder
-app.use(express.static('public'))
+app.use(express.static('src/public'))
 
 // Testing Express's query/params/body
 // Ex. http://localhost:6969/test/param?q=5
