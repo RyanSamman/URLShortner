@@ -1,0 +1,15 @@
+GET http://localhost:6969/
+
+### 
+
+GET http://localhost:6969/search?q=5&test=6
+
+###
+
+POST https://localhost:6969/create
+# Content-Type: application/json
+
+# {
+# 	"url":"https://github.com/RyanSamman",
+# 	"shortened": "github"
+# }

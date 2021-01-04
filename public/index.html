@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Testing</title>
+</head>
+<body>
+	<h1>URL Shortener with Typescript, Express, and MongoDB</h1>
+	<h2>Add URL with HTML Form (Old way)</h2>
+	<form method="POST" action="/create">
+		<label for="url">URL to shorten</label>
+		<input id="url" name="url">
+		<br>
+		<label for="shortened">shortened URL</label>
+		<input id="shortened" name="shortened">
+		<br>
+		<input type="submit">
+	</form>
+	<p>Sends URL and Shortened name in the body as x-www-urlencoded</p>
+
+	<h2>Create with Javascript</h2>
+	<form id="createform">
+		<label for="url">URL to shorten</label>
+		<input id="js-url">
+		<br>
+		<label for="shortened">shortened URL</label>
+		<input id="js-shortened">
+		<br>
+		<input type="submit">
+	</form>
+	<p>Sends URL and Shortened name in the body as JSON</p>	
+	<div id="output"></div>
+	<script src="./index.js"></script>
+
+</body>
+</html>
