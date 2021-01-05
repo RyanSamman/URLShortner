@@ -27,7 +27,6 @@
     "build": "tsc",
     "start": "ts-node-dev --respawn ./src/index.ts",
     "dev": "nodemon --exec ts-node src/index.ts",
-    "dev-frontend": "nodemon --exec tsc public/index.ts",
     "prod": "node build/index.js"
   }
 }
