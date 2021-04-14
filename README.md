@@ -1,5 +1,5 @@
 # URLShortner
-A challenge between me and [Khaled](https://khaledalasmari.com/) to compare Typescript/Node with Python/Flask, by creating a simple URL Shortener.
+A challenge between me and [Khaled](https://khaledalasmari.com/) to compare Typescript/Node with Python/Flask, by creating a simple URL Shortener. [Here is Khaled's Version!](https://github.com/KhaledMAlasmari/MyUrlThing)
 
 <center>
 <img src="Example.png" alt="An Example of my website">
